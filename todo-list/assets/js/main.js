@@ -1,3 +1,5 @@
+// Cronômetro em Javascript
+
 function relogio() {
   function criaHoraDosSegundos(segundos) {
     const data = new Date(segundos * 1000);
