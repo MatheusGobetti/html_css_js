@@ -1,3 +1,5 @@
+/* Arquivo CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); /* Seleciona uma fonte da API do Google */
 
 :root {
@@ -62,6 +64,10 @@ form button:hover { /* Quando passa o mouse em cima do botão */
     background: var(--primary-color-more-darker);
 }
 
-form button:active { /* Quando clica com mouse no botão */
-    background: darkgreen;
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
 }
