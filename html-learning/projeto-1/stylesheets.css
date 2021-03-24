@@ -1,0 +1,22 @@
+:root {
+  --color-purple: rgb(129, 171, 224);
+}
+
+.body-index {
+  background-image: url("./files/isaac-benhesed-onLbXleIkds-unsplash.jpg");
+  background-size: 100% auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.imagens {
+  background-color: var(--color-purple);
+  background-size: 100% auto;
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  max-width: 50%;
+  height: 30rem;
+  border-radius: 8px;
+}
+
