@@ -1,0 +1,21 @@
+/* Global */
+* {
+  margin: 0;
+}
+
+/* ID Selector */
+#container {
+  width: auto;
+}
+
+/* Class Selector */
+.m-40 {
+  margin: 40px;
+}
+
+/* Element/Type Selector */
+h1, h2 {
+  color: rgba(28, 28, 163, 0.774);
+  background: rgb(122, 158, 235);
+  font-size: 60px;
+}
