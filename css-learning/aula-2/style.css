@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&display=swap');
+
+:root {
+  background-color: rgb(252, 246, 253);
+}
+
+h1 {
+  background-color: rgb(239, 207, 250);
+  color: rgb(182, 64, 218);
+  
+  font-size: 60px;
+  font-family: 'IBM Plex Serif', serif;
+  margin: 0px;
+
+  border: 1px solid purple;
+  border-radius: 20px;
+  padding: 40px;
+  width: 500px;
+  box-shadow: 5px 5px mediumpurple;
+}
+
+strong {
+  color: rgb(112, 38, 134);
+}
