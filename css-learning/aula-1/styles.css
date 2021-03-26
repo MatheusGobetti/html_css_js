@@ -14,8 +14,37 @@
 }
 
 /* Element/Type Selector */
-h1, h2 {
+h1 {
   color: rgba(28, 28, 163, 0.774);
   background: rgb(122, 158, 235);
   font-size: 60px;
+  font-family: sans-serif;
+  
+  border: 1px solid rgb(111, 0, 255);
+  margin: 20px;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+h2, h3 {
+  color: rgba(28, 28, 163, 0.774);
+  background: rgb(122, 158, 235);
+  font-size: 30px;
+  font-family: sans-serif;
+  
+  border: 1px solid rgb(111, 0, 255);
+  margin: 20px;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+button {
+  color: rgb(0, 109, 109);
+  font-size: 15px;
+  font-family: sans-serif;
+
+  border: 1px solid blue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 16px;
 }
