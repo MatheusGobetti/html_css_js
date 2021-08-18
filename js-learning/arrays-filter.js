@@ -28,5 +28,5 @@ console.log(pessoasComNomeGrande);
 const pessoasMaisVelhas = pessoas.filter(obj => obj.idade >= 50);
 console.log(pessoasMaisVelhas);
 
-const pessoasComUltimaLetraA = pessoas.filter(obj => obj.nome.slice(-1) == "a");
+const pessoasComUltimaLetraA = pessoas.filter(obj => obj.nome.toLowerCase().endsWith('a'));
 console.log(pessoasComUltimaLetraA);
